@@ -1,25 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ryan </title>
-    <link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ryan </title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <svg id="ryan" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
-        <!-- 얼굴 -->
-        <circle class="face" cx="60" cy="60" r="40"/>
-        
-        <!-- 왼쪽 눈과 눈썹-->
-        <line class="eyebrow" x1="37" x2="50" y1="46" y2="46"/>
-        <circle class="eye" cx="44" cy="55" r="3"/>
+	<svg id="ryan" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+		<!-- 몸통 -->
+		<path
+			class="fill-orange stroke-black upper-body"
+			d="M0,150 C0,65 120,65 120,150"
+		/>
+		<path
+			class="fill-white"
+			d="M40,105 C10,140 110,140 80,105 L80,105 L70,111 L60,105 L50,111 L40,105"
+		/>
+		
+		<!-- 얼굴 -->
+		<circle
+			class="fill-orange stroke-black face"
+			cx="60"
+			cy="60"
+			r="40"
+		/>
+		
+		<!-- 왼쪽 눈과 눈썹-->
+		<line
+			class="stroke-black eyebrow"
+			x1="37"
+			x2="50"
+			y1="46"
+			y2="46"
+		/>
+		<circle
+			class="fill-black"
+			cx="44"
+			cy="55"
+			r="3"
+		/>
 
-        <!-- 오른쪽 눈과 눈썹-->
-        <line class="eyebrow" x1="70" x2="83" y1="46" y2="46"/>
-        <circle class="eye" cx="76" cy="55" r="3"/>
-        
-    </svg>
-    <script scr="script.js"></script>
+		<!-- 오른쪽 눈과 눈썹-->
+		<line
+			class="stroke-black eyebrow"
+			x1="70"
+			x2="83"
+			y1="46"
+			y2="46"
+		/>
+		<circle
+			class="fill-black"
+			cx="76"
+			cy="55"
+			r="3"
+		/>
+		
+		<!-- 코 -->
+		<polygon
+			class="fill-black stroke-black nose"
+			points="59,63.5,60,63.4,61,63.5,60,65"
+		/>
+	</svg>
+	<script scr="script.js"></script>
 </body>
 </html>

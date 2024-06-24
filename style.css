@@ -1,15 +1,33 @@
+.upper-body {
+	stroke-width: 2.5;
+}
+
 .face {
-    fill: #e0a243;
-    stroke: #000;
-    stroke-width: 1.5;
+	stroke-width: 1.5;
 }
 
 .eyebrow {
-    stroke: #000;
-    stroke-width: 3;
-    stroke-linecap: round;
+	stroke-width: 3;
+	stroke-linecap: round;
 }
 
-.eye {
-    fill: #000;
+.stroke-black {
+	stroke: #000;
+}
+
+.fill-black {
+  fill: #000;
+}
+
+.fill-orange {
+  fill: #e0a243;
+}
+
+.fill-white {
+  fill: #fff;
+}
+
+.nose {
+	stroke-width: 5;
+	stroke-linejoin: round;
 }
