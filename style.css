@@ -8,7 +8,6 @@
 
 .eyebrow {
 	stroke-width: 3;
-	stroke-linecap: round;
 }
 
 .stroke-black {
@@ -16,23 +15,34 @@
 }
 
 .fill-black {
-  fill: #000;
+	fill: #000;
 }
 
 .fill-orange {
-  fill: #e0a243;
+	fill: #e0a243;
 }
 
 .fill-white {
-  fill: #fff;
+	fill: #fff;
 }
+
+.linejoin-round {
+	stroke-linejoin: round;
+}
+
+.linecap-round {
+	stroke-linecap: round;
+}
+
 
 .nose {
 	stroke-width: 5;
-	stroke-linejoin: round;
 }
 
 .ears {
 	stroke-width: 2.5;
-	stroke-linecap: round;
+}
+
+.muzzle {
+	stroke-width: 2.5;
 }
