@@ -28,6 +28,7 @@ https://taegon.kim/archives/9658 블로그를 기반으로 공부
 ### path
 - d: 경로 데이터를 정의
 - fill: 경로의 내부를 채울 색상
+- transform: 경로를 변형하는 속성
 - https://a11y.gitbook.io/graphics-aria/svg-graphics/svg-paths-shape 참고
 
 ### polygon
